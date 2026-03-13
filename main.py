@@ -4,7 +4,6 @@
 """
 YourTube - приложение для скачивания видео с YouTube, RuTube и других платформ
 Version: 1.0
-Author: YourTube Team
 """
 
 import sys

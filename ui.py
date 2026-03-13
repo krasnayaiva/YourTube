@@ -383,7 +383,7 @@ class YourTubeApp:
 
         version_label = ctk.CTkLabel(
             status_frame,
-            text="v1.2",
+            text="v1.0",
             font=ctk.CTkFont(size=10),
             text_color="gray"
         )
