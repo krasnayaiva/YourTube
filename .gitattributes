@@ -1,1 +1,2 @@
-*.exe binary
+*.exe binary linguist-generated=true linguist-detectable=false
+*.py linguist-detectable=true
