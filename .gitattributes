@@ -1,2 +1,11 @@
-*.exe binary linguist-generated=true linguist-detectable=false
+*.html linguist-generated=true linguist-detectable=false
+*.htm linguist-generated=true linguist-detectable=false
+
+*.css linguist-generated=true linguist-detectable=false
+*.js linguist-generated=true linguist-detectable=false
+
+
 *.py linguist-detectable=true
+
+*.exe binary
+*.dll binary
