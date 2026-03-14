@@ -14,7 +14,7 @@ from logo import logo
 import base64
 import tempfile
 
-theme_changer = "light"
+theme_changer = "dark"
 
 class TextRedirector(io.StringIO):
     """Перенаправление stdout/stderr в виджет логов"""
