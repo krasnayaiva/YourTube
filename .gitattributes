@@ -1,19 +1,25 @@
-*.html linguist-generated=true linguist-detectable=false
-*.htm linguist-generated=true linguist-detectable=false
-*.css linguist-generated=true linguist-detectable=false
-*.js linguist-generated=true linguist-detectable=false
-
-*.py linguist-detectable=true
-
-*.exe binary
-*.dll binary
-
+# Полностью игнорируем TeX файлы
 *.tex linguist-generated=true linguist-detectable=false
 *.sty linguist-generated=true linguist-detectable=false
 *.cls linguist-generated=true linguist-detectable=false
 *.bib linguist-generated=true linguist-detectable=false
 *.bst linguist-generated=true linguist-detectable=false
 
+# Игнорируем веб-файлы
+*.html linguist-generated=true linguist-detectable=false
+*.htm linguist-generated=true linguist-detectable=false
+*.css linguist-generated=true linguist-detectable=false
+*.js linguist-generated=true linguist-detectable=false
+
+# Python - единственный обнаруживаемый язык
+*.py linguist-detectable=true
+
+# Бинарные файлы
 *.exe binary
 *.dll binary
 *.pyd binary
+*.pyc binary
+
+# Папки с TeX (если такие есть)
+docs/tex/** linguist-generated=true
+tex/** linguist-generated=true
